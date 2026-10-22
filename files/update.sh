@@ -35,7 +35,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/soufianetech11/script/main/Features/menu.zip
+    wget https://raw.githubusercontent.com/soufianetech11/sufyan-store/main/Features/menu.zip
     unzip menu.zip
     chmod +x menu/*
     enc menu/*
