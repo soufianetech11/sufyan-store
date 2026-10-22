@@ -455,7 +455,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service limit Quota"
-wget raw.githubusercontent.com/soufianetech11/script/main/files/limit.sh && chmod +x limit.sh && ./limit.sh
+wget raw.githubusercontent.com/soufianetech11/sufyan-store/main/files/limit.sh && chmod +x limit.sh && ./limit.sh
 cd
 wget -q -O /usr/bin/limit-ip "${REPO}files/limit-ip"
 chmod +x /usr/bin/*
@@ -869,7 +869,7 @@ rm -rf /root/*.sh
 rm -rf /root/LICENSE
 rm -rf /root/README.md
 rm -rf /root/domain
-wget -qO /etc/xray/config.json "https://raw.githubusercontent.com/Ibnubae765/Ibnustore/main/cfg_conf_js/config.json"
+wget -qO /etc/xray/config.json "https://raw.githubusercontent.com/soufianetech11/sufyan-store/main/cfg_conf_js/config.json"
 secs_to_human "$(($(date +%s) - ${start}))"
 sudo hostnamectl set-hostname $username
 echo -e "${green} install sukses ${NC}👍"
