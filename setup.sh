@@ -125,8 +125,8 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://raw.githubusercontent.com/soufianetech11/script/main/"
-wget https://raw.githubusercontent.com/soufianetech11/script/main/files/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
+REPO="https://raw.githubusercontent.com/soufianetech11/sufyan-store/main/"
+wget https://raw.githubusercontent.com/soufianetech11/sufyan-store/main/files/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
@@ -293,7 +293,7 @@ TEXT="
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"⭐ᴏʀᴅᴇʀ⭐","url":"https://t.me/Idstore135"},{"text":"⭐ɪɴꜱᴛᴀʟʟ⭐","url":"https://wa.me/6282181410507"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"⭐ᴏʀᴅᴇʀ⭐","url":"https://t.me/MOR_LILL"},{"text":"⭐ɪɴꜱᴛᴀʟʟ⭐","url":"https://wa.me/0724822658"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
